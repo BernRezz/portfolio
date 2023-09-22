@@ -1,0 +1,125 @@
+.skillsMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    margin-top: 3em;
+}
+
+.skillsCard {
+
+    background-color: rgb(227, 227, 227);
+    border: solid lightgray;
+    box-shadow: rgb(58, 58, 58) 0 0 3px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 60vw;
+    height: fit-content;
+    border-radius: 8px;
+    padding-bottom: 4%;
+}
+
+.skillsCard h1 {
+
+    color: #011c27;
+    text-shadow: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size: 1.9vw;
+    margin: 20px;
+}
+
+.skillsContent {
+
+    margin-top: 20px;
+    width: 80%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.skillsItem {
+    color: rgba(0, 0, 0, 0.496);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1vw;
+
+    transition: 0.2s;
+
+    margin-top: 20px;
+}
+
+.skillsItem:hover {
+    color: #011c27;
+    position: relative;
+    bottom: 5px;
+}
+
+.skillsItem img {
+
+    user-select: none;
+    width: 8em;
+    margin: 10px 0 30px 0;
+}
+
+.skillsItem img:hover {
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(0 0 2px #000000);
+
+}
+
+@media (min-width: 280px) {
+
+    .skillsCard {
+
+        width: 75%;
+    }
+
+    .skillsCard h1 {
+
+        font-size: 3.894vw;
+    }
+
+    .skillsContent {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skillsContent h2 {
+
+        font-size: 3.5em;
+    }
+
+    .skillsItem img {
+
+        width: 15em;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .skillsCard h1 {
+
+        font-size: 2.5vw;
+    }
+
+    .skillsContent {
+
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 90%;
+    }
+
+    .skillsItem img {
+
+        width: 8em;
+    }
+
+
+    .skillsContent h2 {
+
+        font-size: 2em;
+    }
+}

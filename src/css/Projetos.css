@@ -1,0 +1,241 @@
+.projetosMain {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 15%;
+    
+    width: 100vw;
+}
+
+.projetosMain h1 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 6vw;
+    color: #687dc7;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.336);
+}
+
+.projetosContent {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.projetoCard {
+
+    background-color: #011c27db;
+    width: 90%;
+    box-shadow: 0 0 3px black;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projetoCard:hover {
+
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgb(22, 22, 52);
+
+}
+
+.projetoCard img {
+    width: 100%;
+}
+
+.projetoCard a {
+
+    text-decoration: none;
+    text-align: center;
+}
+
+.projetoCard h2 {
+    text-align: center;
+    color: rgb(227, 227, 227);
+    margin: 5px 0 15px 0;
+    font-size: 4.5vw;
+}
+
+.projetoCard p {
+    color: rgb(130, 188, 217);
+    width: 95%;
+    height: fit-content;
+    margin: 0 0 10px 10px;
+    font-size: 2.5vw;
+}
+
+@media (min-width: 425px) {
+
+
+    .projetosMain {
+
+        width: 100vw;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .projetosContent {
+
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projetoCard p {
+
+        font-size: 1.6vw;
+        position: relative;
+        right: 5px;
+    }
+
+    .projetoCard h2 {
+
+        font-size: 3vw;
+    }
+
+    .projetoCard {
+
+        width: 95%;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .projetosContent {
+
+        width: 85%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .projetoCard p {
+
+        font-size: 0.8em;
+    }
+
+    .projetoCard h2 {
+
+        font-size: 1.5em;
+    }
+
+    .projetoCard {
+
+        width: 95%;
+    }
+
+    section {
+
+        justify-content: flex-end;
+    }
+
+    .projetosMain {
+
+        width: 100%;
+        
+    }
+
+    .projetosMain h1 {
+
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .projetosMain h1 {
+        font-size: 4em;
+    }
+
+    .projetosContent {
+
+        width: 75%;
+    }
+
+    .projetoCard p {
+
+        font-size: 0.9em;
+    }
+
+    .projetoCard h2 {
+
+        font-size: 1.5em;
+    }
+
+    .projetoCard {
+
+        width: 95%;
+    }
+}
+
+@media (min-width: 1600px) {
+    
+    .projetosContent {
+
+        width: 80%;
+    }
+
+    .projetoCard p {
+
+        font-size: 1.2vw;
+    }
+
+    .projetoCard h2 {
+
+        font-size: 1.8vw;
+    }
+
+    .projetoCard {
+
+        width: 95%;
+    }
+}
+
+@media (min-width: 2050px) {
+
+    .projetosMain {
+
+        top: 20%;
+    }
+
+    .projetosContent {
+
+        width: 75%;
+    }
+
+    .projetoCard p {
+
+        font-size: 1vw;
+    }
+
+    .projetoCard h2 {
+
+        font-size: 1.6vw;
+    }
+}
+
+@media (min-width: 2300px) {
+
+    .projetoCard p {
+
+        font-size: 0.8vw;
+    }
+
+    .projetoCard h2 {
+
+        font-size: 1.5vw;
+    }
+}
+
+@media (min-width: 2500px) {
+
+    .projetosContent {
+
+        width: 70%;
+    }
+}
