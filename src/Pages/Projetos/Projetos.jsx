@@ -11,24 +11,24 @@ function Projetos() {
         <div className='projetosContent'>
 
           <div className="projetoCard">
-            <a href="https://bernrezz.github.io/loja-de-doces/">
-              <img src="src/assets/Loja de doces!.png" alt="imagem projeto loja de doces" />
+            <a href="https://loja-de-doces.netlify.app/">
+              <img src="https://cdn.discordapp.com/attachments/1154824436625719398/1154831783230185612/Loja_de_doces.png" alt="imagem projeto loja de doces" />
               <h2>Loja de doces!</h2>
               <p>Meu projeto final entregue no meu periodo na Tech4Me utilizando um pouco de tudo que eu aprendi durante o curso.</p>
             </a>
           </div>
 
           <div className="projetoCard">
-            <a href="https://bernrezz.github.io/seletor-de-cores/">
-              <img src="src/assets/Seletor de cores.png" alt="imagem projeto seletor de cores" />
-              <h2>Seletor de cores</h2>
+            <a href="https://seletor-de-temas-br.netlify.app/">
+              <img src="https://cdn.discordapp.com/attachments/1154824436625719398/1154831784022909049/Seletor_de_cores.png" alt="imagem projeto seletor de cores" />
+              <h2>Seletor de temas</h2>
               <p>Uma aplicação de seleção de temas em react.</p>
             </a>
           </div>
 
           <div className="projetoCard">
-            <a href="https://bernrezz.github.io/post-its/">
-              <img src="src/assets/Post it.png" alt="imagem projeto post it" />
+            <a href="https://post-its-br.netlify.app/">
+              <img src="https://cdn.discordapp.com/attachments/1154824436625719398/1154831783754477588/Post_It.png" alt="imagem projeto post it" />
               <h2>Post it</h2>
               <p>Uma aplicação de post-its de nomes e números com campos controlados</p>
             </a>

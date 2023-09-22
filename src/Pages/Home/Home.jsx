@@ -7,7 +7,7 @@ function Home() {
             <section id='home'>
                 <div className="homeMain">
                     <div className='imgContainer'>
-                        <img src="src/assets/eu.jfif" alt="Foto Bernardo" className='foto' />
+                        <img src="https://media.discordapp.net/attachments/1154824436625719398/1154824728016601128/9c6e4959-97d5-4608-81c4-b5a5223b5ce2.png?width=480&height=670" alt="Foto Bernardo" className='foto' />
 
                         <div className="imgFrames">
                             <div className="imgFrame topL"></div>
